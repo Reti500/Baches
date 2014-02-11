@@ -17,6 +17,8 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 				return new OrdenesTrabajo();
 			case 1:
 				return new NuevoReporte();
+			case 2:
+				return new Mapa();
 		}
 		return null;
 	}
@@ -24,7 +26,7 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
-		return 2;
+		return 3;
 	}
 
 }
