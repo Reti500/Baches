@@ -1,6 +1,5 @@
 package com.geos.baches;
 
-import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,8 +13,6 @@ public class OrdenesTrabajo extends Fragment {
 	
 	private Button hola;
 	private RelativeLayout rl;
-	
-	private ProgressDialog cargar;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
