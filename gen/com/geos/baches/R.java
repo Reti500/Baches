@@ -33,23 +33,25 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0009;
+        public static final int action_settings=0x7f0a000a;
         public static final int btnLogin=0x7f0a0003;
         public static final int contenedor=0x7f0a0004;
-        public static final int fragMapa=0x7f0a0005;
-        public static final int fragReporte=0x7f0a0006;
-        public static final int listOrdenesTrabajo=0x7f0a0008;
+        public static final int fragMapa=0x7f0a0006;
+        public static final int fragReporte=0x7f0a0007;
+        public static final int listOrdenesTrabajo=0x7f0a0009;
         public static final int loginLayout=0x7f0a0000;
-        public static final int textView1=0x7f0a0007;
+        public static final int ordenesTxtPrueba=0x7f0a0005;
+        public static final int textView1=0x7f0a0008;
         public static final int txt_password=0x7f0a0002;
         public static final int txt_user=0x7f0a0001;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int fragment_mapa=0x7f030002;
-        public static final int fragment_reporte=0x7f030003;
-        public static final int fragment_trabajo=0x7f030004;
+        public static final int adapter_list_ordenes=0x7f030002;
+        public static final int fragment_mapa=0x7f030003;
+        public static final int fragment_reporte=0x7f030004;
+        public static final int fragment_trabajo=0x7f030005;
     }
     public static final class menu {
         public static final int login=0x7f090000;
@@ -79,12 +81,6 @@ public final class R {
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
  API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
